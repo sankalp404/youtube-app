@@ -1,6 +1,6 @@
-# ReduxSimpleStarter
+# Youtube App
 
-Interested in learning [Redux]
+Interested in learning how to make a Youtube App with React
 
 ###Getting Started###
 
@@ -10,8 +10,8 @@ There are two methods for getting started with this repo.
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-	> git clone git@github.com:
-	> cd ReduxSimpleStarter
+	> git clone git@github.com:sankalp404/youtube-app.git
+	> cd youtube-app
 	> npm install
 	> npm start
 ```
