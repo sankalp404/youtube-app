@@ -15,7 +15,7 @@ const VideoDetail = ({ video }) =>{
         </div>
         <div className="details">
           <div>{ video.snippet.title }</div>
-          <p>{ video.snippet.description.substr(0,30) + '...' }</p>
+          <p>{ video.snippet.description.substr(0,100) + '...' }</p>
         </div>
       </div>
    );

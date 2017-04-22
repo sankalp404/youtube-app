@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 // i.e. its saying pull out property component from react and
 // assign it to Component. Syntacting sugar..ES6.
 
-class SearchBar extends Component{
+class SearchBar extends Component{ // could use React.Component
   constructor(props){
     super(props);
     // functional components dont have state
@@ -29,6 +29,7 @@ class SearchBar extends Component{
         <input
           value = { this.state.term }
           onChange={event => this.onInputChange(event.target.value)} />
+        <span className="glyphicon glyphicon-search" />
       </div>
     );
   }
